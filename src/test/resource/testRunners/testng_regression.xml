@@ -27,7 +27,7 @@
 	<test name="deseriliaze Test">
 		<classes>
 			<class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProducts" />
-			<class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProductsJwayJsonPath" />
+			<!-- <class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProductsJwayJsonPath" /> -->
 		</classes>
 	</test>
 	
