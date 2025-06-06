@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Test Suite" verbose="4">
+
+
+	<listeners>
+		 <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener" /> 
+	</listeners>
+
+
+
+	<test name="Go Rest API Test - Get User">
+		<classes>
+			<class name="org.Nav.Explore.goRes.CreateUser" />
+		</classes>
+	</test>
+
+	
+	<test name="Product API Test - Get Product">
+		<classes>
+			<class name="org.Nav.Explore.ContactsTest.GetAllContacts" />
+		</classes>
+	</test>
+
+	
+	<test name="deseriliaze Test">
+		<classes>
+			<class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProducts" />
+			<!-- <class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProductsJwayJsonPath" /> -->
+		</classes>
+	</test>
+	
+
+	<test name="Basic Auth API Test">
+		<classes>
+			<class name="org.Nav.Explore.BasicAuth.BasicAuthTest" />
+		</classes>
+	</test>
+
+</suite>	
