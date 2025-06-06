@@ -30,8 +30,8 @@
                 <table style="padding: 20px;">
                   <tr>
                     <td>
-                      <span class="bg-failed" style="margin-right:10px;padding:0px 5px;">FAILED</span>
-                      <span style="">25-May-2025, 11:58:28 am &middot; 10s</span>
+                      <span class="bg-passed" style="margin-right:10px;padding:0px 5px;">PASSED</span>
+                      <span style="">06-Jun-2025, 9:36:13 pm &middot; 16s</span>
                     </td>
                   </tr>
                 </table>
@@ -56,11 +56,11 @@
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#79B530">Passed</p>
-	                <h1 style="font-size:34px;">5</h1>
+	                <h1 style="font-size:34px;">6</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e64b5d">Failed</p>
-	                <h1 style="font-size:34px;">1</h1>
+	                <h1 style="font-size:34px;">0</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e6e04c">Skipped</p>
@@ -105,136 +105,6 @@
     <table width="100%">
       <tr>
         <td align="center">
-          <table width="650">
-            <tr>
-              <td bgcolor="#FFF" style="padding:10px 20px;">
-                <table>
-                  <tr>
-                    <td width="650px" style="padding:10px;">
-                      <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
-                        API Regression Test Suite
-                      <p style="font-size:12px;margin:0;">
-                        <span>25-May-2025, 11:58:28 am / 10s</span>
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
-                      <p style="font-size:13px;margin:0;">
-                        org.Nav.Explore.goRes.CreateUser
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
-                      <p style="font-size:13px;margin:0;">
-                        createUsertest
-                      </p>
-                    </td>
-                  </tr>
-                  <tr><td style="height:10px"></td></tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
-                      <p style="font-size:13px;margin:0;">
-                        org.Nav.Explore.ContactsTest.GetAllContacts
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
-                      <p style="font-size:13px;margin:0;">
-                        getAllContactsTest
-                      </p>
-                    </td>
-                  </tr>
-                  <tr><td style="height:10px"></td></tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
-                      <p style="font-size:13px;margin:0;">
-                        org.Nav.Explore.FakeAPI.deserilization.GetAllProducts
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
-                      <p style="font-size:13px;margin:0;">
-                        getALLProducts
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
-                      <p style="font-size:13px;margin:0;">
-                        getProducts
-                      </p>
-                    </td>
-                  </tr>
-                  <tr><td style="height:10px"></td></tr>
-                  <tr>
-                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
-                      <p style="font-size:13px;margin:0;">
-                        org.Nav.Explore.FakeAPI.deserilization.GetAllProductsJwayJsonPath
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
-                      <p style="font-size:13px;margin:0;">
-                        getProductsJsonPath
-<pre>java.lang.NullPointerException: Cannot invoke "org.Nav.explore.client.RestClient.get(String, String, org.Nav.explore.constants.AuthType, io.restassured.http.ContentType)" because "this.restclient" is null
-	at org.Nav.Explore.FakeAPI.deserilization.GetAllProductsJwayJsonPath.getProductsJsonPath(GetAllProductsJwayJsonPath.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre>
-                      </p>
-                    </td>
-                  </tr>
-                  <tr><td style="height:10px"></td></tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
-                      <p style="font-size:13px;margin:0;">
-                        org.Nav.Explore.BasicAuth.BasicAuthTest
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
-                      <p style="font-size:13px;margin:0;">
-                        basicAuthTest
-                      </p>
-                    </td>
-                  </tr>
-                  <tr><td style="height:10px"></td></tr>
-                </table>
-              </td>
-            </tr>
-          </table>
         </td>
       </tr>
     </table>

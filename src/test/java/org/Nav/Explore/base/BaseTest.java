@@ -3,8 +3,8 @@ package org.Nav.Explore.base;
 import java.util.List;
 
 import org.Nav.explore.client.RestClient;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.qameta.allure.testng.AllureTestNg;
@@ -36,10 +36,9 @@ public class BaseTest {
 	@BeforeSuite
 	public void setupAllureResport() {
 		RestAssured.filters(new AllureRestAssured());
-		RestAssured.filters((List<Filter>) new AllureTestNg());
 	}
 	
-	@BeforeTest
+	@BeforeClass
 	public void setUp() {
 		
 		restclient = new RestClient();

@@ -4,6 +4,29 @@
   <listeners>
     <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
   </listeners>
+  <test thread-count="5" name="Go Rest API Test - Get User(failed)" verbose="4">
+    <classes>
+      <class name="org.Nav.Explore.goRes.CreateUser">
+        <methods>
+          <include name="setupAllureResport"/>
+          <include name="createUsertest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.Nav.Explore.goRes.CreateUser -->
+    </classes>
+  </test> <!-- Go Rest API Test - Get User(failed) -->
+  <test thread-count="5" name="Product API Test - Get Product(failed)" verbose="4">
+    <classes>
+      <class name="org.Nav.Explore.ContactsTest.GetAllContacts">
+        <methods>
+          <include name="generateToken"/>
+          <include name="setupAllureResport"/>
+          <include name="setUp"/>
+          <include name="getAllContactsTest"/>
+        </methods>
+      </class> <!-- org.Nav.Explore.ContactsTest.GetAllContacts -->
+    </classes>
+  </test> <!-- Product API Test - Get Product(failed) -->
   <test thread-count="5" name="deseriliaze Test(failed)" verbose="4">
     <classes>
       <class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProductsJwayJsonPath">
@@ -13,6 +36,25 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- org.Nav.Explore.FakeAPI.deserilization.GetAllProductsJwayJsonPath -->
+      <class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProducts">
+        <methods>
+          <include name="setupAllureResport"/>
+          <include name="getALLProducts"/>
+          <include name="getProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.Nav.Explore.FakeAPI.deserilization.GetAllProducts -->
     </classes>
   </test> <!-- deseriliaze Test(failed) -->
+  <test thread-count="5" name="Basic Auth API Test(failed)" verbose="4">
+    <classes>
+      <class name="org.Nav.Explore.BasicAuth.BasicAuthTest">
+        <methods>
+          <include name="basicAuthTest"/>
+          <include name="setupAllureResport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.Nav.Explore.BasicAuth.BasicAuthTest -->
+    </classes>
+  </test> <!-- Basic Auth API Test(failed) -->
 </suite> <!-- Failed suite [API Regression Test Suite] -->
