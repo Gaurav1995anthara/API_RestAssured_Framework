@@ -2,64 +2,64 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-06T22:33:02 IST" name="API Regression Test Suite" finished-at="2025-06-06T22:33:15 IST" duration-ms="12337">
+  <suite started-at="2025-06-06T22:47:47 IST" name="API Regression Test Suite" finished-at="2025-06-06T22:48:00 IST" duration-ms="12653">
     <groups>
     </groups>
-    <test started-at="2025-06-06T22:33:02 IST" name="Go Rest API Test - Get User" finished-at="2025-06-06T22:33:05 IST" duration-ms="2678">
+    <test started-at="2025-06-06T22:47:47 IST" name="Go Rest API Test - Get User" finished-at="2025-06-06T22:47:50 IST" duration-ms="2827">
       <class name="org.Nav.Explore.goRes.CreateUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.goRes.CreateUser@640f11a1]" started-at="2025-06-06T22:33:02 IST" name="setUp" finished-at="2025-06-06T22:33:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.goRes.CreateUser@640f11a1]" started-at="2025-06-06T22:47:47 IST" name="setUp" finished-at="2025-06-06T22:47:47 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createUsertest()[pri:0, instance:org.Nav.Explore.goRes.CreateUser@640f11a1]" started-at="2025-06-06T22:33:02 IST" name="createUsertest" finished-at="2025-06-06T22:33:05 IST" duration-ms="2600" status="PASS">
+        <test-method signature="createUsertest()[pri:0, instance:org.Nav.Explore.goRes.CreateUser@640f11a1]" started-at="2025-06-06T22:47:47 IST" name="createUsertest" finished-at="2025-06-06T22:47:50 IST" duration-ms="2751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUsertest -->
       </class> <!-- org.Nav.Explore.goRes.CreateUser -->
     </test> <!-- Go Rest API Test - Get User -->
-    <test started-at="2025-06-06T22:33:05 IST" name="Product API Test - Get Product" finished-at="2025-06-06T22:33:12 IST" duration-ms="6619">
+    <test started-at="2025-06-06T22:47:50 IST" name="Product API Test - Get Product" finished-at="2025-06-06T22:47:56 IST" duration-ms="6374">
       <class name="org.Nav.Explore.ContactsTest.GetAllContacts">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@3e14c16d]" started-at="2025-06-06T22:33:05 IST" name="setUp" finished-at="2025-06-06T22:33:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@3e14c16d]" started-at="2025-06-06T22:47:50 IST" name="setUp" finished-at="2025-06-06T22:47:50 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="generateToken()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@3e14c16d]" started-at="2025-06-06T22:33:05 IST" name="generateToken" finished-at="2025-06-06T22:33:07 IST" duration-ms="1944" status="PASS">
+        <test-method is-config="true" signature="generateToken()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@3e14c16d]" started-at="2025-06-06T22:47:50 IST" name="generateToken" finished-at="2025-06-06T22:47:52 IST" duration-ms="1751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateToken -->
-        <test-method signature="getAllContactsTest()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@3e14c16d]" started-at="2025-06-06T22:33:07 IST" name="getAllContactsTest" finished-at="2025-06-06T22:33:12 IST" duration-ms="4663" status="PASS">
+        <test-method signature="getAllContactsTest()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@3e14c16d]" started-at="2025-06-06T22:47:52 IST" name="getAllContactsTest" finished-at="2025-06-06T22:47:56 IST" duration-ms="4612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllContactsTest -->
       </class> <!-- org.Nav.Explore.ContactsTest.GetAllContacts -->
     </test> <!-- Product API Test - Get Product -->
-    <test started-at="2025-06-06T22:33:12 IST" name="deseriliaze Test" finished-at="2025-06-06T22:33:13 IST" duration-ms="1572">
+    <test started-at="2025-06-06T22:47:56 IST" name="deseriliaze Test" finished-at="2025-06-06T22:47:58 IST" duration-ms="2016">
       <class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProducts">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@793138bd]" started-at="2025-06-06T22:33:12 IST" name="setUp" finished-at="2025-06-06T22:33:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@793138bd]" started-at="2025-06-06T22:47:56 IST" name="setUp" finished-at="2025-06-06T22:47:56 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getALLProducts()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@793138bd]" started-at="2025-06-06T22:33:12 IST" name="getALLProducts" finished-at="2025-06-06T22:33:12 IST" duration-ms="744" status="PASS">
+        <test-method signature="getALLProducts()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@793138bd]" started-at="2025-06-06T22:47:56 IST" name="getALLProducts" finished-at="2025-06-06T22:47:57 IST" duration-ms="893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getALLProducts -->
-        <test-method signature="getProducts()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@793138bd]" started-at="2025-06-06T22:33:12 IST" name="getProducts" finished-at="2025-06-06T22:33:13 IST" duration-ms="818" status="PASS">
+        <test-method signature="getProducts()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@793138bd]" started-at="2025-06-06T22:47:57 IST" name="getProducts" finished-at="2025-06-06T22:47:58 IST" duration-ms="1114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProducts -->
       </class> <!-- org.Nav.Explore.FakeAPI.deserilization.GetAllProducts -->
     </test> <!-- deseriliaze Test -->
-    <test started-at="2025-06-06T22:33:13 IST" name="Basic Auth API Test" finished-at="2025-06-06T22:33:15 IST" duration-ms="1420">
+    <test started-at="2025-06-06T22:47:58 IST" name="Basic Auth API Test" finished-at="2025-06-06T22:48:00 IST" duration-ms="1382">
       <class name="org.Nav.Explore.BasicAuth.BasicAuthTest">
-        <test-method is-config="true" signature="setupAllureResport()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@2f6e28bc]" started-at="2025-06-06T22:33:02 IST" name="setupAllureResport" finished-at="2025-06-06T22:33:02 IST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="setupAllureResport()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@2f6e28bc]" started-at="2025-06-06T22:47:47 IST" name="setupAllureResport" finished-at="2025-06-06T22:47:47 IST" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAllureResport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@2f6e28bc]" started-at="2025-06-06T22:33:13 IST" name="setUp" finished-at="2025-06-06T22:33:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@2f6e28bc]" started-at="2025-06-06T22:47:58 IST" name="setUp" finished-at="2025-06-06T22:47:58 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="basicAuthTest()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@2f6e28bc]" started-at="2025-06-06T22:33:13 IST" name="basicAuthTest" finished-at="2025-06-06T22:33:15 IST" duration-ms="1416" status="PASS">
+        <test-method signature="basicAuthTest()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@2f6e28bc]" started-at="2025-06-06T22:47:58 IST" name="basicAuthTest" finished-at="2025-06-06T22:48:00 IST" duration-ms="1377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basicAuthTest -->
