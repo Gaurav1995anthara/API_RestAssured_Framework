@@ -1,6 +1,7 @@
 package org.Nav.Explore.base;
 
 import org.Nav.explore.client.RestClient;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
@@ -34,7 +35,7 @@ public class BaseTest {
 		RestAssured.filters(new AllureRestAssured());
 	}
 	
-	@BeforeTest
+	@BeforeClass
 	public void setUp() {
 		
 		restclient = new RestClient();
