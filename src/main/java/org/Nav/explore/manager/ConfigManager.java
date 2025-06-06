@@ -9,7 +9,7 @@ public class ConfigManager {
 	private static Properties properties = new Properties();
 	
 	static {
-		
+		System.out.println("Static block of ConfigManager started");
 		InputStream ip = ConfigManager.class.getClassLoader().getResourceAsStream("configuration/config.properties");
 		if (ip == null) {
 		    System.err.println("config.properties NOT found at runtime!");
