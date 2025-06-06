@@ -1,5 +1,7 @@
 package org.Nav.Explore.ContactsTest;
 
+import java.net.URL;
+
 import org.Nav.Explore.base.BaseTest;
 import org.Nav.explore.constants.AuthType;
 import org.Nav.explore.manager.ConfigManager;
@@ -19,7 +21,8 @@ public class GetAllContacts extends BaseTest{
 	
 	@BeforeMethod
 	public void generateToken() {
-		
+		 URL url = ConfigManager.class.getClassLoader().getResource("configuration/config.properties");
+		 System.out.println("File URL in Jenkinsssssss: " + url);
 		token = Utils.createToken();
 	}
 	
