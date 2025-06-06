@@ -12,8 +12,10 @@ public class ConfigManager {
 		
 		InputStream ip = ConfigManager.class.getClassLoader().getResourceAsStream("configuration/config.properties");
 		if (ip == null) {
-	        throw new RuntimeException("config.properties not found in classpath");
-	    }
+		    System.err.println("config.properties NOT found at runtime!");
+		    System.err.println("Current working directory: " + System.getProperty("user.dir"));
+		    throw new RuntimeException("config.properties not found in classpath");
+		}
 		try {
 			properties.load(ip);
 		} catch (IOException e) {
