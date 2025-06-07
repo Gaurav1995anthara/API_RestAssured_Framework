@@ -21,8 +21,8 @@ public class GetAllContacts extends BaseTest{
 	
 	@BeforeMethod
 	public void generateToken() {
-		 URL url = ConfigManager.class.getClassLoader().getResource("configuration/config.properties");
-		 System.out.println("File URL in Jenkinsssssss: " + url);
+		// URL url = ConfigManager.class.getClassLoader().getResource("configuration/config.properties");
+		// System.out.println("File URL in Jenkinsssssss: " + url);
 		token = Utils.createToken();
 	}
 	
