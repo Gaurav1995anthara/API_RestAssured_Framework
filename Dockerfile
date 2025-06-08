@@ -1,5 +1,5 @@
 # Use Maven with OpenJDK 11 as the base image
-FROM maven:3.9.6-openjdk-21
+FROM maven:3.9.6-eclipse-temurin-21
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -18,3 +18,6 @@ RUN mvn clean package -DskipTests=true -B
 
 # Set the default command to run tests
 CMD ["mvn", "test"]
+
+#give this to some person to run in this system with the report
+#docker run --rm -v C:\localdocreport:/app/target gauravanthara/apiframework:1 mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testRunners/testng_regression.xml

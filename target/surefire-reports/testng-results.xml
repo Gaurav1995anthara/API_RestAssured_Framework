@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-08T07:24:40 UTC" name="API Regression Test Suite" finished-at="2025-06-08T07:24:59 UTC" duration-ms="19128">
+    <groups>
+    </groups>
+    <test started-at="2025-06-08T07:24:40 UTC" name="Go Rest API Test - Get User" finished-at="2025-06-08T07:24:48 UTC" duration-ms="7988">
+      <class name="org.Nav.Explore.goRes.CreateUser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.goRes.CreateUser@b2c5e07]" started-at="2025-06-08T07:24:40 UTC" name="setUp" finished-at="2025-06-08T07:24:40 UTC" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUsertest()[pri:0, instance:org.Nav.Explore.goRes.CreateUser@b2c5e07]" started-at="2025-06-08T07:24:40 UTC" name="createUsertest" finished-at="2025-06-08T07:24:48 UTC" duration-ms="7570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsertest -->
+      </class> <!-- org.Nav.Explore.goRes.CreateUser -->
+    </test> <!-- Go Rest API Test - Get User -->
+    <test started-at="2025-06-08T07:24:48 UTC" name="Product API Test - Get Product" finished-at="2025-06-08T07:24:55 UTC" duration-ms="6719">
+      <class name="org.Nav.Explore.ContactsTest.GetAllContacts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@7d1cfb8b]" started-at="2025-06-08T07:24:48 UTC" name="setUp" finished-at="2025-06-08T07:24:48 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="generateToken()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@7d1cfb8b]" started-at="2025-06-08T07:24:48 UTC" name="generateToken" finished-at="2025-06-08T07:24:52 UTC" duration-ms="3852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateToken -->
+        <test-method signature="getAllContactsTest()[pri:0, instance:org.Nav.Explore.ContactsTest.GetAllContacts@7d1cfb8b]" started-at="2025-06-08T07:24:52 UTC" name="getAllContactsTest" finished-at="2025-06-08T07:24:55 UTC" duration-ms="2842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllContactsTest -->
+      </class> <!-- org.Nav.Explore.ContactsTest.GetAllContacts -->
+    </test> <!-- Product API Test - Get Product -->
+    <test started-at="2025-06-08T07:24:55 UTC" name="deseriliaze Test" finished-at="2025-06-08T07:24:57 UTC" duration-ms="2560">
+      <class name="org.Nav.Explore.FakeAPI.deserilization.GetAllProducts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@34f22f9d]" started-at="2025-06-08T07:24:55 UTC" name="setUp" finished-at="2025-06-08T07:24:55 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getALLProducts()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@34f22f9d]" started-at="2025-06-08T07:24:55 UTC" name="getALLProducts" finished-at="2025-06-08T07:24:56 UTC" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getALLProducts -->
+        <test-method signature="getProducts()[pri:0, instance:org.Nav.Explore.FakeAPI.deserilization.GetAllProducts@34f22f9d]" started-at="2025-06-08T07:24:57 UTC" name="getProducts" finished-at="2025-06-08T07:24:57 UTC" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProducts -->
+      </class> <!-- org.Nav.Explore.FakeAPI.deserilization.GetAllProducts -->
+    </test> <!-- deseriliaze Test -->
+    <test started-at="2025-06-08T07:24:58 UTC" name="Basic Auth API Test" finished-at="2025-06-08T07:24:59 UTC" duration-ms="1681">
+      <class name="org.Nav.Explore.BasicAuth.BasicAuthTest">
+        <test-method is-config="true" signature="setupAllureResport()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@648c94da]" started-at="2025-06-08T07:24:38 UTC" name="setupAllureResport" finished-at="2025-06-08T07:24:40 UTC" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllureResport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@648c94da]" started-at="2025-06-08T07:24:58 UTC" name="setUp" finished-at="2025-06-08T07:24:58 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="basicAuthTest()[pri:0, instance:org.Nav.Explore.BasicAuth.BasicAuthTest@648c94da]" started-at="2025-06-08T07:24:58 UTC" name="basicAuthTest" finished-at="2025-06-08T07:24:59 UTC" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuthTest -->
+      </class> <!-- org.Nav.Explore.BasicAuth.BasicAuthTest -->
+    </test> <!-- Basic Auth API Test -->
+  </suite> <!-- API Regression Test Suite -->
+</testng-results>

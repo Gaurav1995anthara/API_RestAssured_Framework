@@ -1,0 +1,1 @@
+{"uuid":"95bbfce8-63a3-4a97-8f35-7f72768a6798","name":"org.Nav.Explore.BasicAuth.BasicAuthTest","children":["a6421ef6-ffc5-4711-959b-da6eafec46d4"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749367498032,"stop":1749367498032}],"afters":[],"start":1749367498031,"stop":1749367499721}

@@ -1,1 +1,0 @@
-{"uuid":"2802d90d-071a-4fab-993a-397b494d122e","name":"Product API Test - Get Product","children":["91b008d3-c132-4345-96a5-8161a8c6f722"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749229385550,"stop":1749229385550}],"afters":[],"start":1749229385549,"stop":1749229392167}

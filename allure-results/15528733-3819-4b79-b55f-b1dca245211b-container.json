@@ -1,1 +1,0 @@
-{"uuid":"15528733-3819-4b79-b55f-b1dca245211b","name":"org.Nav.Explore.ContactsTest.GetAllContacts","children":["243efbe7-c52b-45f0-b3ee-999342417a6a"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749225977114,"stop":1749225977114}],"afters":[],"start":1749225977113,"stop":1749225983636}

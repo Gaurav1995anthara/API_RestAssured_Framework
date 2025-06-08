@@ -1,0 +1,9 @@
+/app/src/test/java/org/Nav/Explore/BasicAuth/BasicAuthTest.java
+/app/src/test/java/org/Nav/Explore/FakeAPI/deserilization/GetAllProductsJwayJsonPath.java
+/app/src/test/java/org/Nav/Explore/SchemaTest/GoRestUserAPISchemaTest.java
+/app/src/test/java/org/Nav/Explore/goRes/CreateUser.java
+/app/src/test/java/org/Nav/Explore/oauth2/AmadusAPITest.java
+/app/src/test/java/org/Nav/Explore/ContactsTest/GetAllContacts.java
+/app/src/test/java/org/Nav/Explore/FakeAPI/deserilization/GetAllProducts.java
+/app/src/test/java/org/Nav/Explore/base/BaseTest.java
+/app/src/test/java/org/Nav/Explore/xml/CircuitAPIWithXMLTest.java

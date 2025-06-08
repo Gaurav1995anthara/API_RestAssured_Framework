@@ -1,0 +1,9 @@
+org/Nav/Explore/FakeAPI/deserilization/GetAllProductsJwayJsonPath.class
+org/Nav/Explore/ContactsTest/GetAllContacts.class
+org/Nav/Explore/goRes/CreateUser.class
+org/Nav/Explore/oauth2/AmadusAPITest.class
+org/Nav/Explore/FakeAPI/deserilization/GetAllProducts.class
+org/Nav/Explore/base/BaseTest.class
+org/Nav/Explore/BasicAuth/BasicAuthTest.class
+org/Nav/Explore/SchemaTest/GoRestUserAPISchemaTest.class
+org/Nav/Explore/xml/CircuitAPIWithXMLTest.class
