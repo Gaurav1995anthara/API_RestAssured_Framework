@@ -1,4 +1,4 @@
-# Use Maven with OpenJDK 11 as the base image
+# Use Maven with java 21 as the base image
 FROM maven:3.9.6-eclipse-temurin-21
 
 # Set the working directory inside the container

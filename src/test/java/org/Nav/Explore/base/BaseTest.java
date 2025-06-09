@@ -1,9 +1,10 @@
 package org.Nav.Explore.base;
 
 import org.Nav.explore.client.RestClient;
+import org.Nav.explore.mocking.WireMockSetup;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
@@ -19,7 +20,7 @@ public class BaseTest {
 	protected final static String PRODUCTS_BASEURL = "https://fakestoreapi.com";
 	protected final static String BASE_URL_OAUTH2_AMADEUS = "https://test.api.amadeus.com";
 	protected final static String BASE_URL_ERGAST_CIRCUIT = "http://ergast.com";
-	
+	protected final static String BASE_URL_MOCK_SERVER = "http://localhost:8089";
 	//endpoints
 	protected final static String GOREST_USERS_ENDPOINT = "/public/v2/users";
 	protected final static String CONTACTS_LOGIN_USER_ENDPOINT = "/users/logi";
@@ -39,6 +40,12 @@ public class BaseTest {
 	public void setUp() {
 		
 		restclient = new RestClient();
+		WireMockSetup.startWireMockeServer();
+	}
+	
+	@AfterClass
+	public void tearDown() {
+		WireMockSetup.stopWireMockServer();
 	}
 	
 }
